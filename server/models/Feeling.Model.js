@@ -11,6 +11,12 @@ const feelingSchema = new Schema({
         type: String,
     },
 
+    post: {
+        type: Schema.Types.ObjectId,
+        ref: 'Post',
+    },
+
+
 
 },
     {
